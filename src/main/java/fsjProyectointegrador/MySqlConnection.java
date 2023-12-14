@@ -16,7 +16,7 @@ public class MySqlConnection {
 			e.printStackTrace();
 		}
 	}
-	public Connection conectar () {
+	public static Connection conectar () {
 		Connection conexion = null;
 		
 		try {
